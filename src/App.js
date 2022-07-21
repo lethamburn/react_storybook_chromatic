@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Button backgroundColor={"red"} />
+      <Button backgroundColor="red" label="Este es el botón"/>
     </div>
   );
 }

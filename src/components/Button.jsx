@@ -23,7 +23,8 @@ Button.propTypes = {
   onClick: PropTypes.func,
 };
 Button.defaultProps = {
-  backgroundColor: red,
-  size: "medium",
+  backgroundColor: "orange",
+  size: "large",
   onClick: undefined,
+  label: "Botón"
 };

@@ -6,7 +6,7 @@ export default {
   component: Button,
   argTypes: {
     backgroundColor: { control: "color" },
-    onClick: { action: "clicked" },
+    onClick: { action: "click" },
   },
 };
 const Template = (args) => <Button {...args} />;
